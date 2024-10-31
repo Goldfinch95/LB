@@ -1,0 +1,17 @@
+/* Ajustes para el carrusel */
+.carousel-inner {
+    width: 900px; /* Ancho del carrusel */
+    height: 360px; /* Altura del carrusel */
+    overflow: hidden; /* Oculta cualquier contenido desbordado */
+}
+
+.carousel-item {
+    height: 100%; /* Asegura que cada elemento del carrusel tenga la misma altura */
+}
+
+.carousel-item img {
+    width: 100vh; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: fill; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+    opacity: 0.8;
+}
