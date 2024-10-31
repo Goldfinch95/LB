@@ -1,0 +1,11 @@
+.nav-link{
+    border-bottom: 2px solid grey;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid orange;
+}
+
+.nav-link:active{
+    color: orange;
+}
