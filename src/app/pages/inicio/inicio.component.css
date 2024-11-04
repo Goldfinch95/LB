@@ -1,17 +1,35 @@
-/* Ajustes para el carrusel */
-.carousel-inner {
-    width: 900px; /* Ancho del carrusel */
-    height: 360px; /* Altura del carrusel */
-    overflow: hidden; /* Oculta cualquier contenido desbordado */
-}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  
 
 .carousel-item {
-    height: 100%; /* Asegura que cada elemento del carrusel tenga la misma altura */
+    height: 24rem;
+    width: 100%;
+    background: #000;
+    color: white;
+    position: relative;
 }
 
-.carousel-item img {
-    width: 100vh; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
-    object-fit: fill; /* Mantiene la proporción de la imagen y la recorta si es necesario */
-    opacity: 0.8;
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.second-box{
+    height: 15rem;
+    width: 100%;
+    background: #777;
+    color: white;
+    margin-bottom: 2%;
 }
