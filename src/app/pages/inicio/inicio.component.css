@@ -4,17 +4,6 @@
     margin: 0;
   }
   
-.carousel{
-    margin-top: -8px;
-}
-.carousel-item {
-    height: 24rem;
-    width: 100%;
-    background: #000;
-    color: white;
-    position: relative;
-}
-
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
@@ -27,23 +16,4 @@ p {
     font-weight: 800;
 }
 
-.overlay-image{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-
-.second-box{
-    height: 15rem;
-    width: 100%;
-    background: #777;
-    color: white;
-    margin-bottom: 2%;
-}
 
