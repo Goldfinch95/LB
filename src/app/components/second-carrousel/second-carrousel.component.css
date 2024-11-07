@@ -1,0 +1,4 @@
+#carouselBrands .carousel-control-prev,
+#carouselBrands .carousel-control-next {
+  display: none;
+}

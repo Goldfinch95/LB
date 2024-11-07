@@ -208,53 +208,6 @@
   </div>
 </div>
 <!--second carrousel-->
-<div class="container bg-danger">
-  <div id="carouselBrands" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div *ngFor="let group of getGroupedBrands(); let i = index">
-        <div class="carousel-item" [ngClass]="{active: i === 0}">
-          <div class="row justify-content-center">
-            <div class="col-4" *ngFor="let image of group">
-              <div class="card">
-                <div class="card-body p-0 d-flex justify-content-center">
-                  <img
-                    [src]="image"
-                    class="d-block"
-                    alt="..."
-                    style="
-                      max-height: 200px;
-                      object-fit: cover;
-                      width: 100%;
-                      height: auto;
-                    "
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselBrands"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselBrands"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-
+<app-second-carrousel></app-second-carrousel>
 <!--footer-->
 <app-footer></app-footer>
