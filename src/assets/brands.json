@@ -1,77 +1,13 @@
-[
-    {
-        "img": "../../../assets/img/second_carousel/adata.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/asus.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/bgh.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/cisco.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/dell.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/epson.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/fibercorp.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/hasar.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/hp.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/ibm.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/lenovo-lightbox.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/lexmark.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/lg.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/logitech.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/microsoft.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/nutanix.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/oki-lightbox.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/redhat.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/ricoh.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/samsung.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/telecom.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/telefonica.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/viewsonic.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/vmware.jpg"
-    },
-    {
-        "img": "../../../assets/img/second_carousel/WD.jpg"
-    }
-]
+{
+    "BRANDS": [
+      "../../../assets/img/second_carousel/adata.jpg",
+      "../../../assets/img/second_carousel/asus.jpg",
+      "../../../assets/img/second_carousel/bgh.jpg",
+      "../../../assets/img/second_carousel/cisco.jpg",
+      "../../../assets/img/second_carousel/dell.jpg",
+      "../../../assets/img/second_carousel/epson.jpg",
+      "../../../assets/img/second_carousel/fibercorp.jpg",
+      "../../../assets/img/second_carousel/hasar.jpg",
+      "../../../assets/img/second_carousel/hp.jpg"
+    ]
+}
