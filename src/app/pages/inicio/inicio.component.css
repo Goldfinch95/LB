@@ -4,7 +4,9 @@
     margin: 0;
   }
   
-
+.carousel{
+    margin-top: -8px;
+}
 .carousel-item {
     height: 24rem;
     width: 100%;
@@ -13,6 +15,17 @@
     position: relative;
 }
 
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.texto {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
 
 .overlay-image{
     position: absolute;
