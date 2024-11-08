@@ -13,19 +13,30 @@
     
 }
 
+.next{
+    color: #fff;
+}
+
 h1{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
 
-p{
+p, .accordion-body{
     font-family: "PT Sans", sans-serif;
     color: #727272;
     font-size: 15px;
     font-weight: 100;
 }
-.accordion-body{
+.accordion-body, .accordion-button{
+    background-color: #f7f7f7;
+}
+
+.accordion-button{
+    border: none;
+  outline: none;
+  box-shadow: none;
     background-color: #f7f7f7;
 }
 
