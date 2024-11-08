@@ -1,0 +1,61 @@
+<!--navbar-->
+<app-navbar></app-navbar>
+<!--page-->
+<!--title-->
+<div class="container-fluid bg-warning d-flex justify-content-center">
+  <div
+    class="container text-white container-consultoria d-flex justify-content-between mt-2"
+  >
+    <h1>SERVICIO TÉCNICO</h1>
+    <div class="d-flex small mt-2">
+      <a
+        class="nav-link active link me-2"
+        aria-current="page"
+        routerLink="/inicio"
+        >Inicio</a
+      >
+      <p class="mx-2 next">>></p>
+      <a class="nav-link link ms-2">Servicio Técnico</a>
+    </div>
+  </div>
+</div>
+<!--image-->
+<div class="container mt-5 mb-5">
+  <img
+    src="../../../assets/img/carousel/servicio_tecnico.webp"
+    alt="Consultoría"
+    class="img-fluid"
+  />
+</div>
+<!--info-->
+<div class="container">
+  <p>
+    LB consultoría cuenta con Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Quae atque beatae, non unde sint corporis cum quibusdam repudiandae.
+    Eaque nostrum libero consequuntur aliquam aut quo atque ipsa illum totam
+    maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+    tempore, nulla id quidem dignissimos sequi autem explicabo iure deleniti
+    accusantium earum.
+  </p>
+</div>
+<!--cards-->
+<div class="container mt-4">
+  <div class="row">
+    @for (item of SERVICES.default; track $index) {
+        <div class="col-md-4 mb-4">
+            <div class="card text-bg-dark">
+                <a [routerLink]="item.link" class="no-style-link">
+                    <img [src]="item.image" [alt]="item.title" class="card-img">
+                    <div class="card-img-overlay d-flex align-items-end">
+                        <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
+                            {{item.title}}
+                        </h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+  </div>
+</div>
+<!--footer-->
+<app-footer></app-footer>

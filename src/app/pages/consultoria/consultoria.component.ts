@@ -14,8 +14,4 @@ import * as serviceData from '../../../assets/services.json'
 export class ConsultoriaComponent {
 
   SERVICES: any = serviceData;
-
-  constructor(){
-    console.log(this.SERVICES)
-  }
 }

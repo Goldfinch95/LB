@@ -1,0 +1,34 @@
+[
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.jpg",
+    "title": "ALMACENAMIENTO Y BACKUP",
+    "link": "/tecnico_1"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones_de_networking_y_cableado_estructurado.jpg",
+    "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
+    "link": "/tecnico_2"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones-virtualizacion-de-servidores.jpg",
+    "title": "VIRTUALIZACIÓN DE SERVIDORES",
+    "link": "/tecnico_3"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.jpg",
+    "title": "LICENCIAMIENTO DE SOFTWARE",
+    "link": "/tecnico_1"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones_de_cloud_computing.jpg",
+    "title": "CLOUD COMPUTING",
+    "link": "/tecnico_1"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/soluciones_de_cluster_de-_servidores.jpg",
+    "title": "CLUSTER DE SERVIDORES",
+    "link": "/tecnico_1"
+  }
+]
+
+  
