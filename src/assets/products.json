@@ -1,0 +1,33 @@
+[
+    {
+      "imagen": "../assets/img/productos/desktops-1.jpg",
+      "title": "Desktops",
+      "text": "Las desktops que comercializamos en Dynamic Technology están diseñadas para soportar grandes cargas de trabajo, ideales para empresas que trabajan con gran cantidad de información y que necesitan estar en funcionamiento gran parte del día. Ofrecemos una gran variedad de tipos de desktops, especializados y customizadas para el trabajo que se requiera, como por ejemplo, trabajos de diseños, edición, arquitectura, hasta tareas más complejas."
+    },
+    {
+      "title": "Notebooks",
+      "imagen": "../assets/img/productos/notebooks.jpg",
+      "text": "Las Laptops, están en la capacidad para soportas grandes cargas de trabajo y almacenamiento de datos, al igual que las desktops. La ventaja de las notebooks, es la portabilidad, ya que es mucho más sencillo de trasladarlas de un lugar a otros. Estos quipos, son ideales para personas que necesitan movilizarse, sin perder la conexión con sus actividades (en tiempo real), como por ejemplo; en viajes de negocios, visitas a clientes, etc."
+    },
+    {
+      "imagen": "../assets/img/productos/aio.jpg",
+      "title": "All in One",
+      "text": "Un All In One es el PC que está integrado de manera completa. En el monitor se encuentra incorporado el procesador, el disco duro, y toda la placa base, por lo tanto solo tenemos un elemento. Su pantalla puede ser o no táctil."
+    },
+    {
+      "imagen": "../assets/img/productos/impresoras_y_multifuncionales.jpg",
+      "title": "Impresoras y Multifuncionales",
+      "text": "Las impresoras y multifuncionales son sumamente necesarias para todo tipo de empresa, ya que nos permiten imprimir, escanear y/o fotocopiar documentos, para poder compartirlos. Por ese motivo, un factor determinante a la hora de elegir estos equipos, es poder conocer la necesidad real para optar por aquellos que desarrollen las funciones requeridas de manera óptima. Por tal motivo, es que en Dynamic Technology contamos con las mejores marcas en el mercado de IT, que a su vez, contribuyen al ahorro de recursos y seguridad en redes de impresión."
+    },
+    {
+      "imagen": "../assets/img/productos/impresoras_produccion.jpg",
+      "title": "Impresoras de Producción",
+      "text": "Existen impresoras y multifuncionales de alta velocidad, pensadas para impresiones de alto volumen. Por ese motivo, un factor determinante a la hora de elegir estos equipos, es poder conocer la necesidad real para optar por aquellos que desarrollen las funciones requeridas de manera óptima. Por tal motivo, es que en Dynamic Technology contamos con las mejores marcas en el mercado de IT, que a su vez, contribuyen al ahorro de recursos y seguridad en redes de impresión."
+    },
+    {
+      "imagen": "../assets/img/productos/impresoras_termicas.jpg",
+      "title": "Impresoras Térmicas",
+      "text": "La impresión térmica directa se realiza mediante la aplicación de calor a los cabezales de la impresora. Estos, se ponen en contacto con la superficie de impresión que debe ser sensible al calor. De este modo, la superficie de impresión que contacta con los cabezales se vuelve más oscura, obteniendo así la impresión."
+    }
+  ]
+  

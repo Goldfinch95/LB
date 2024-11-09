@@ -10,6 +10,8 @@ import { ServicioTecnicoComponent } from './pages/servicio-tecnico/servicio-tecn
 import { Tecnico1Component } from './pages/servicio-tecnico/tecnico-1/tecnico-1.component';
 import { Tecnico2Component } from './pages/servicio-tecnico/tecnico-2/tecnico-2.component';
 import { Tecnico3Component } from './pages/servicio-tecnico/tecnico-3/tecnico-3.component';
+import { ProductosComponent } from './pages/productos/productos.component';
+
 
 export const routes: Routes = [
     {
@@ -54,6 +56,10 @@ export const routes: Routes = [
     {
         path: 'tecnico_3',
         component: Tecnico3Component
+    },
+    {
+        path: 'productos',
+        component: ProductosComponent
     },
     {
         path: 'contacto',
