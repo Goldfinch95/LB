@@ -1,32 +1,32 @@
 [
     {
       "title": "SERVICIOS DE LOGÍSTICA Y DISTRIBUCIÓN",
-      "image": "../assets/img/consultoria/logistica.jpg",
+      "image": "../assets/img/consultoria/logistica.webp",
       "link": "/servicio_1"
     },
     {
       "title": "SERVICIOS DE CONECTIVIDAD Y ENLACES",
-      "image": "../assets/img/consultoria/enlace.jpg",
+      "image": "../assets/img/consultoria/enlace.webp",
       "link": "/servicio_2"
     },
     {
       "title": "SERVICIOS DE DIGITALIZACIÓN",
-      "image": "../assets/img/consultoria/digitalizacion.jpg",
+      "image": "../assets/img/consultoria/digitalizacion.webp",
       "link": "/servicio_3"
     },
     {
       "title": "SERVICIOS DE SOPORTE TÉCNICO",
-      "image": "../assets/img/consultoria/servicios-soporte-tecnico.jpg",
+      "image": "../assets/img/consultoria/servicios-soporte-tecnico.webp",
       "link": "/servicio_1"
     },
     {
       "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
-      "image": "../assets/img/consultoria/daas.jpg",
+      "image": "../assets/img/consultoria/daas.webp",
       "link": "/servicio_1"
     },
     {
       "title": "SOLUCIONES DE EQUIPAMIENTO DE IT",
-      "image": "../assets/img/consultoria/soluciones_de_equipamiento_de_ti.jpg",
+      "image": "../assets/img/consultoria/soluciones_de_equipamiento_de_ti.webp",
       "link": "/servicio_1"
     }
   ]

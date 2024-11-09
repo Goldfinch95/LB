@@ -1,31 +1,31 @@
 [
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.webp",
     "title": "ALMACENAMIENTO Y BACKUP",
     "link": "/tecnico_1"
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_networking_y_cableado_estructurado.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones_de_networking_y_cableado_estructurado.webp",
     "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
     "link": "/tecnico_2"
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones-virtualizacion-de-servidores.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones-virtualizacion-de-servidores.webp",
     "title": "VIRTUALIZACIÓN DE SERVIDORES",
     "link": "/tecnico_3"
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.webp",
     "title": "LICENCIAMIENTO DE SOFTWARE",
     "link": "/tecnico_1"
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_cloud_computing.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones_de_cloud_computing.webp",
     "title": "CLOUD COMPUTING",
     "link": "/tecnico_1"
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_cluster_de-_servidores.jpg",
+    "image": "../assets/img/servicio_tecnico/soluciones_de_cluster_de-_servidores.webp",
     "title": "CLUSTER DE SERVIDORES",
     "link": "/tecnico_1"
   }
