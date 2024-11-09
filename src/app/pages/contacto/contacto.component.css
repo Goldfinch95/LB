@@ -1,0 +1,15 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+    color: #727272;
+    font-size: 15px;
+    font-weight: 100;
+  }
