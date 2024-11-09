@@ -1,6 +1,8 @@
+<div class="app-container">
 <!--navbar-->
 <app-navbar></app-navbar>
 <!--home-->
+<main class="flex-grow-1">
 <!--map-->
 <google-map [center]="center" [zoom]="zoom" width="100%" height="400px">
   <map-marker *ngFor="let position of markerPositions" [position]="position"></map-marker>
@@ -33,5 +35,7 @@
     </div>
   </div>
 </div>
+</main>
 <!--footer-->
 <app-footer></app-footer>
+</div>
