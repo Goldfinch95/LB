@@ -1,15 +1,33 @@
-.background{
-    background-color: #373839;
+.background {
+  background-color: #373839;
 }
 
-a{
-    color: cyan;
+span {
+  font-family: "PT Sans", sans-serif;
+  color: #eaeaea;
+  font-size: 14px;
+  font-weight: 800;
 }
 
-a:hover{
-    color: orange;
+p {
+  font-family: "PT Sans", sans-serif;
+  color: #9c9c9c;
+  font-size: 12px;
+  font-weight: 100;
+}
+a {
+  color: #3fc7f1;
 }
 
-.second_background{
-    background-color: #282A2B;
+a:hover {
+  color: orange;
+}
+
+.second_background {
+  background-color: #282a2b;
+}
+
+.copyright {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
 }
