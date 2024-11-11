@@ -21,9 +21,9 @@
   max-width: 900px;
 }
 
-.container:hover .slide{
+/* .container:hover .slide{
   animation-play-state: paused;
-}
+}*/
 
 .slide{
   display: inline-block;
