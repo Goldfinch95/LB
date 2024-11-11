@@ -28,16 +28,6 @@
     "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.webp",
     "title": "LICENCIAMIENTO DE SOFTWARE",
     "link": "/tecnico_1"
-  },
-  {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_cloud_computing.webp",
-    "title": "CLOUD COMPUTING",
-    "link": "/tecnico_1"
-  },
-  {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_cluster_de-_servidores.webp",
-    "title": "CLUSTER DE SERVIDORES",
-    "link": "/tecnico_1"
   }
 ]
 

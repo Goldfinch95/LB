@@ -1,4 +1,42 @@
-#carouselBrands .carousel-control-prev,
-#carouselBrands .carousel-control-next {
-  display: none;
+@keyframes slide{
+  from{
+    transform: translateX(0) ;
+    -webkit-transform: translateX(0) ;
+    -moz-transform: translateX(0) ;
+    -ms-transform: translateX(0) ;
+    -o-transform: translateX(0) ;
 }
+  to{
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+}
+
+.container{
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 900px;
+}
+
+.container:hover .slide{
+  animation-play-state: paused;
+}
+
+.slide{
+  display: inline-block;
+  animation: 25s slide infinite linear;
+  -webkit-animation: 25s slide infinite linear;
+}
+
+
+.brand-image{
+  margin-right: 15px;
+  border: 2px solid #ccc; /* Borde de 2px de color gris */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 15px;/* Espacio interno alrededor de la imagen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
