@@ -1,5 +1,15 @@
 [
   {
+    "image": "../assets/img/servicio_tecnico/instalacion_camara_seguridad.webp",
+    "title": "INSTALACIÓN DE CÁMARAS DE SEGURIDAD",
+    "link": "/instalacion_camaras_seguridad"
+  },
+  {
+    "image": "../assets/img/servicio_tecnico/reparacion_tv.webp",
+    "title": "REPARACIÓN DE TV",
+    "link": "/reparacion_tv"
+  },
+  {
     "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.webp",
     "title": "ALMACENAMIENTO Y BACKUP",
     "link": "/tecnico_1"
