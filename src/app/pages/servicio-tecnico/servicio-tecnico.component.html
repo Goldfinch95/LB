@@ -30,30 +30,35 @@
 <!--info-->
 <div class="container">
   <p>
-    LB consultoría cuenta con Lorem ipsum dolor sit amet consectetur adipisicing
-    elit. Quae atque beatae, non unde sint corporis cum quibusdam repudiandae.
-    Eaque nostrum libero consequuntur aliquam aut quo atque ipsa illum totam
-    maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-    tempore, nulla id quidem dignissimos sequi autem explicabo iure deleniti
-    accusantium earum.
+    En LB, nos encargamos de garantizar que tus equipos informáticos funcionen
+    siempre al máximo rendimiento. Ofrecemos un servicio técnico integral que
+    incluye reparación, optimización, instalación y actualización de sistemas
+    operativos y aplicaciones. Ya sea que necesites resolver fallos en tu
+    equipo, realizar un formateo o actualizar hardware, nuestros técnicos están
+    capacitados para ofrecer soluciones rápidas y eficaces.
+  </p>
+  <p>
+    Nuestro enfoque está en proporcionar un servicio personalizado, asegurando
+    que cada necesidad sea atendida con la máxima eficiencia y calidad. Con
+    nosotros, tu tecnología siempre estará en buenas manos.
   </p>
 </div>
 <!--cards-->
 <div class="container mt-4">
   <div class="row">
     @for (item of SERVICES.default; track $index) {
-        <div class="col-md-4 mb-4">
-            <div class="card text-bg-dark">
-                <a [routerLink]="item.link" class="no-style-link">
-                    <img [src]="item.image" [alt]="item.title" class="card-img">
-                    <div class="card-img-overlay d-flex align-items-end">
-                        <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
-                            {{item.title}}
-                        </h5>
-                    </div>
-                </a>
-            </div>
-        </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-bg-dark">
+        <a [routerLink]="item.link" class="no-style-link">
+          <img [src]="item.image" [alt]="item.title" class="card-img" />
+          <div class="card-img-overlay d-flex align-items-end">
+            <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
+              {{ item.title }}
+            </h5>
+          </div>
+        </a>
+      </div>
+    </div>
     }
   </div>
 </div>
