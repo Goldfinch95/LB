@@ -22,3 +22,7 @@ p {
     font-size: 15px;
     font-weight: 100;
   }
+
+  p strong {
+    font-weight: bold; /* O usa un valor más alto si prefieres */
+}

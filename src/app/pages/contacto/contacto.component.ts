@@ -13,9 +13,9 @@ import { NgFor } from '@angular/common';
   styleUrl: './contacto.component.css'
 })
 export class ContactoComponent {
-  center: google.maps.LatLngLiteral = { lat: -34.5846807869225, lng: -58.43609286260402 };
+  center: google.maps.LatLngLiteral = { lat: -34.61850351590013, lng: -58.53289478930845 };
   zoom = 16;
   markerPositions: google.maps.LatLngLiteral[] = [
-    { lat: -34.5846807869225, lng: -58.43609286260402 }
+    { lat: -34.61850351590013, lng: -58.53289478930845 }
   ];
 }

@@ -12,22 +12,22 @@
   {
     "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.webp",
     "title": "ALMACENAMIENTO Y BACKUP",
-    "link": "/tecnico_1"
+    "link": "/almacenamiento_backup"
   },
   {
     "image": "../assets/img/servicio_tecnico/soluciones_de_networking_y_cableado_estructurado.webp",
     "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
-    "link": "/tecnico_2"
+    "link": "/networking_cableado_estructurado"
   },
   {
     "image": "../assets/img/servicio_tecnico/soluciones-virtualizacion-de-servidores.webp",
     "title": "VIRTUALIZACIÓN DE SERVIDORES",
-    "link": "/tecnico_3"
+    "link": "/virtualizacion_servicios"
   },
   {
     "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.webp",
     "title": "LICENCIAMIENTO DE SOFTWARE",
-    "link": "/tecnico_1"
+    "link": "/licenciamiento_software"
   }
 ]
 

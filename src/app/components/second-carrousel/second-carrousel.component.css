@@ -34,9 +34,9 @@
 
 .brand-image{
   margin-right: 15px;
-  border: 2px solid #ccc; /* Borde de 2px de color gris */
-  border-radius: 10px; /* Bordes redondeados */
-  margin: 15px;/* Espacio interno alrededor de la imagen */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*border: 2px solid #ccc; */
+  border-radius: 10px; 
+  margin: 15px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 

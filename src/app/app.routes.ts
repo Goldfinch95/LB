@@ -11,6 +11,9 @@ import { Tecnico1Component } from './pages/servicio-tecnico/tecnico-1/tecnico-1.
 import { Tecnico2Component } from './pages/servicio-tecnico/tecnico-2/tecnico-2.component';
 import { Tecnico3Component } from './pages/servicio-tecnico/tecnico-3/tecnico-3.component';
 import { ProductosComponent } from './pages/productos/productos.component';
+import { Tecnico4Component } from './pages/servicio-tecnico/tecnico-4/tecnico-4.component';
+import { Tecnico5Component } from './pages/servicio-tecnico/tecnico-5/tecnico-5.component';
+import { Tecnico6Component } from './pages/servicio-tecnico/tecnico-6/tecnico-6.component';
 
 
 
@@ -55,8 +58,20 @@ export const routes: Routes = [
         component: Tecnico2Component
     },
     {
-        path: 'tecnico_3',
+        path: 'almacenamiento_backup',
         component: Tecnico3Component
+    },
+    {
+        path: 'networking_cableado_estructurado',
+        component: Tecnico4Component
+    },
+    {
+        path: 'virtualizacion_servicios',
+        component: Tecnico5Component
+    },
+    {
+        path: 'licenciamiento_software',
+        component: Tecnico6Component
     },
     {
         path: 'productos',
