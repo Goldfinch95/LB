@@ -1,4 +1,12 @@
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    @for ( buttonElement of ButtonList; track $index) {
+    <app-carrousel-button-element [buttonElement]="$index" />
+    }
+  </div>
+</div>
+
+<!--<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button
       type="button"
@@ -187,4 +195,4 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div>-->

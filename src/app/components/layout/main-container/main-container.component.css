@@ -1,0 +1,7 @@
+.main-container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
