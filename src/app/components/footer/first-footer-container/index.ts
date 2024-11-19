@@ -1,0 +1,1 @@
+export * from './first-footer-container.component';

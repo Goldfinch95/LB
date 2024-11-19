@@ -1,0 +1,14 @@
+.nav-link {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+  }
+  
+.nav-link:hover {
+    border-bottom: 2px solid orange;
+  }
+  
+.nav-link:active {
+    color: orange;
+  }

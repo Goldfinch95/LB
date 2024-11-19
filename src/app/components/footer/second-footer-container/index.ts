@@ -1,0 +1,1 @@
+export * from './second-footer-container.component'
