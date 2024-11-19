@@ -17,16 +17,16 @@
     {
       "title": "SERVICIOS DE SOPORTE TÉCNICO",
       "image": "../assets/img/consultoria/servicios-soporte-tecnico.webp",
-      "link": "/servicio_1"
+      "link": "/servicio_4"
     },
     {
       "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
       "image": "../assets/img/consultoria/daas.webp",
-      "link": "/servicio_1"
+      "link": "/servicio_5"
     },
     {
       "title": "SOLUCIONES DE EQUIPAMIENTO DE IT",
       "image": "../assets/img/consultoria/soluciones_de_equipamiento_de_ti.webp",
-      "link": "/servicio_1"
+      "link": "/servicio_6"
     }
   ]
