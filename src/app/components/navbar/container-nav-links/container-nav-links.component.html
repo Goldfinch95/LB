@@ -1,23 +1,8 @@
-<div class="container-fluid">
-    <div class="navbar-brand mx-auto d-flex gap-lg-4">
-        @for (navLinkElement of NavLinkList ; track navLinkElement.name){
-            <app-nav-link-element [navLinkElement]="navLinkElement"/>
-        }
-    </div>
-</div>
-
-
-
-
-<!--
-<div class="container-fluid">
-    <div class="navbar-brand mx-auto d-flex gap-lg-4">
-      <a class="nav-link active" aria-current="page" routerLink="/inicio">Inicio</a>
-      <a class="nav-link"  routerLink="/nosotros">Nosotros</a>
-      <a class="nav-link" routerLink="/consultoria">Consultoría</a>
-      <a class="nav-link" routerLink="/servicio_tecnico">Servicio Técnico</a>
-      <a class="nav-link" routerLink="/productos">Productos</a>
-      <a class="nav-link" routerLink="/contacto">Contacto</a>
+<div class="collapse navbar-collapse" id="navbarNav"> 
+    <div class="navbar-brand mx-auto d-flex justify-content-center align-items-center gap-lg-4">
+      @for (navLinkElement of NavLinkList ; track navLinkElement.name){
+      <app-nav-link-element [navLinkElement]="navLinkElement" />
+      }
     </div>
   </div>
-  <div class="navbar-underline"></div>-->
+  

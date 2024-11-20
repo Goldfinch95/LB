@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Consultoría",
+      "image": "../../../assets/img/carousel/consultoria.webp"
+    },
+    {
+      "name": "Evaluación de las necesidades del cliente",
+      "image": "../../../assets/img/carousel/evaluacion_cliente.webp"
+    },
+    {
+      "name": "Identificación de problemas y oportunidades de trabajo",
+      "image": "../../../assets/img/carousel/indentificacion_problemas_oportunidades.webp"
+    },
+    {
+      "name": "Eficacia, eficiencia y efectividad de sus sistemas informáticos",
+      "image": "../../../assets/img/carousel/eficacia_eficiencia_efectividad.webp"
+    },
+    {
+      "name": "Servicio técnico",
+      "image": "../../../assets/img/carousel/servicio_tecnico.webp"
+    },
+    {
+      "name": "Instalación de aplicaciones",
+      "image": "../../../assets/img/carousel/consultoria.webp"
+    },
+    {
+      "name": "Optimización, armado y actualización de equipos",
+      "image": "../../../assets/img/carousel/consultoria.webp"
+    },
+    {
+        "name": "Reparación de equipos, formateo e instalación de sistemas operativos",
+        "image": "../../../assets/img/carousel/consultoria.webp"
+      }
+  ]
+  
