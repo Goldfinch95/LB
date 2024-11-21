@@ -1,0 +1,25 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+p,
+.accordion-body {
+  font-family: "PT Sans", sans-serif;
+  color: #727272;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.next {
+  color: #fff;
+}
+
+.title-container {
+  height: 8vh;
+  background-image: url(/assets/img/background/title-backg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

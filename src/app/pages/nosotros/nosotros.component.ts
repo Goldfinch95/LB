@@ -1,15 +1,16 @@
+import { AccordionComponent } from '../../components/accordion';
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../components/navbar/navbar.component';
-import { FooterComponent } from '../../components/footer/footer.component';
-import { RouterLink } from '@angular/router';
+import { MainContainerComponent } from '../../components/layout';
+import { TitleContainerComponent } from '../../components/title-container';
+
 
 @Component({
   selector: 'app-nosotros',
   standalone: true,
-  imports: [NavbarComponent,RouterLink, FooterComponent],
+  imports: [AccordionComponent, MainContainerComponent, TitleContainerComponent ],
   templateUrl: './nosotros.component.html',
-  styleUrl: './nosotros.component.css'
+  styleUrl: './nosotros.component.css',
 })
 export class NosotrosComponent {
-
+  title = 'Nosotros';
 }

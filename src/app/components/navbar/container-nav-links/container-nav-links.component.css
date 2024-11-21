@@ -1,22 +1,22 @@
-/* Estilo de los enlaces en el menú hamburguesa para pantallas pequeñas */
+
 @media (max-width: 992px) {
-    /* Asegurarse de que los enlaces estén en columna */
-    #navbarNav .navbar-brand {
+    
+    .navbar-brand {
       display: flex;
-      flex-direction: column; /* Apilar los enlaces verticalmente */
-      align-items: center; /* Centrar los enlaces */
+      flex-direction: column; 
+      align-items: center; 
       padding: 0;
     }
   
-    /* Ajuste de los enlaces en el contenedor */
-    #navbarNav .navbar-brand .nav-item {
-      width: 100%; /* Hacer que los elementos de la lista ocupen todo el ancho */
-      text-align: center; /* Centrar los textos */
-      padding: 10px 0; /* Espaciado vertical entre los enlaces */
+    
+    .navbar-brand .nav-item {
+      width: 100%; 
+      text-align: center; 
+      padding: 10px 0;
     }
   
-    /* Estilo de los enlaces de navegación */
-    #navbarNav .navbar-brand app-nav-link-element {
+    
+     .navbar-brand app-nav-link-element {
       display: block; /* Asegurarse de que cada enlace se muestre en un bloque completo */
       padding: 10px 15px; /* Espaciado dentro de los enlaces */
       font-size: 1.1rem; /* Aumentar el tamaño de la fuente */

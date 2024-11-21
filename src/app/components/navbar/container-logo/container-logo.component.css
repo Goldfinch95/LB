@@ -1,3 +1,6 @@
+.letter-spacing {
+    letter-spacing: 2px; /* Puedes ajustar el valor según lo que desees */
+  }
 .text-decoration-none{
     text-decoration: none;
     color: inherit;

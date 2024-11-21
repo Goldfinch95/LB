@@ -1,204 +1,48 @@
-<!--navbar-->
-<app-navbar></app-navbar>
-<!--page-->
-<!--title-->
-<div class="container-fluid bg-warning d-flex justify-content-center">
-  <div
-    class="container text-white container-nosotros d-flex justify-content-between mt-2"
-  >
-    <h1>NOSOTROS</h1>
-    <div class="d-flex small mt-2">
-      <a
-        class="nav-link active link me-2"
-        aria-current="page"
-        routerLink="/inicio"
-        >Inicio</a
-      >
-      <p class="mx-2 next">>></p>
-      <a class="nav-link link ms-2">Nosotros</a>
-    </div>
+<app-main-container>
+  <app-title-container [title]="title" />
+  <div class="container mt-5 mb-5">
+    <img
+      src="./assets/img/nosotros/grupal.webp"
+      alt="nosotros"
+      class="img-fluid"
+    />
   </div>
-</div>
-<!--image-->
-<div class="container mt-5 mb-5">
-  <img
-    src="../../../assets/img/nosotros/grupal.webp"
-    alt="nosotros"
-    class="img-fluid"
-  />
-</div>
-<div class="container d-flex align-items-center">
-  <h1 class="me-3">¿QUIENES SOMOS?</h1>
-  <div class="flex-grow-1 border-top border-black"></div>
-</div>
-<div class="container mt-4 mb-5">
-  <p>
-    Somos un equipo de expertos en tecnología dedicados a brindar soluciones a
-    medida que impulsan el rendimiento y la eficiencia de los sistemas
-    informáticos. Con años de experiencia en consultoría y soporte técnico,
-    nuestra misión es ayudar a nuestros clientes a optimizar sus
-    infraestructuras tecnológicas y resolver sus desafíos digitales. Nos
-    especializamos en la evaluación de necesidades, la identificación de
-    problemas y la implementación de mejoras tecnológicas efectivas.
-  </p>
-  <p>
-    Nuestro enfoque se centra en ofrecer un servicio integral, que incluye desde
-    la instalación y reparación de equipos hasta la actualización de sistemas
-    operativos y aplicaciones. Ya sea que necesites asistencia técnica puntual o
-    un análisis detallado para mejorar tus sistemas, estamos comprometidos en
-    ofrecer soluciones personalizadas que se adapten a tus necesidades
-    específicas.
-  </p>
-  <p>
-    Lo que nos diferencia es nuestra pasión por la tecnología y el compromiso
-    con la calidad. Trabajamos con dedicación para asegurarnos de que tu
-    tecnología esté siempre optimizada, segura y funcionando de la mejor manera
-    posible. Nuestro equipo está en constante formación para mantenerse
-    actualizado con las últimas tendencias y avances tecnológicos, lo que nos
-    permite ofrecer un servicio siempre innovador y confiable.
-  </p>
-</div>
-<div class="container d-flex align-items-center">
-  <h1 class="me-3">¿POR QUÉ DEBERÍAS TRABAJAR CON LB?</h1>
-  <div class="flex-grow-1 border-top border-black"></div>
-</div>
-<div class="container my-5">
-  <div class="row">
-    <!-- Primera columna con acordeón de "Nuestra Diferencia" -->
-    <div class="col-md-6">
-      <div class="accordion" id="accordionPanelsStayOpenExample1">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
-              NUESTRA DIFERENCIA
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseOne"
-            class="accordion-collapse collapse show"
-          >
-            <div class="accordion-body">
-              <ul>
-                <li>
-                  <p>
-                    Ofrecemos soluciones de calidad en cada requerimiento
-                    acompañado de nuestro sello profesional, un excelente
-                    servicio de post-venta, el cual se encuentra avalado por las
-                    certificaciones obtenidas y las marcas a las que
-                    representamos.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Estamos comprometidos a colaborar, de manera inteligente e
-                    innovadora, con el éxito de su negocio, asegurando que
-                    nuestras propuestas den respuestas inmediata, precisas y
-                    eficiente a sus requerimientos.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Enfocados en brindar soluciones, debido a ello, contamos con
-                    una amplia cartera de propuestas, teniendo en cuenta las
-                    últimas tendencias del mercado, para asegurar una notable
-                    mejora en sus negocios.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Segunda columna con acordeón de "Misión", "Visión" y "Valores" -->
-    <div class="col-md-6">
-      <div class="accordion" id="accordionPanelsStayOpenExample2">
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseTwo"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo"
-            >
-              MISIÓN
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseTwo"
-            class="accordion-collapse collapse"
-          >
-            <div class="accordion-body">
-              Ofrecemos soluciones de calidad en cada requerimiento acompañado
-              de nuestro sello profesional, un excelente servicio de post-venta,
-              el cual se encuentra avalado por las certificaciones obtenidas y
-              las marcas a las que representamos.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
-            >
-              VISIÓN
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseThree"
-            class="accordion-collapse collapse"
-          >
-            <div class="accordion-body">
-              Ser reconocidos como una empresa integradora de soluciones a nivel
-              nacional, así como también, ser uno de los mayores influenciadores
-              y fuente de información en temas relacionados a la tecnología.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseFour"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseFour"
-            >
-              VALORES
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseFour"
-            class="accordion-collapse collapse"
-          >
-            <div class="accordion-body">
-              <p class="card-text m-0">Transparencia</p>
-              <p class="card-text m-0">Honestidad</p>
-              <p class="card-text m-0">Compromiso</p>
-              <p class="card-text m-0">Responsabilidad</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="container d-flex align-items-center">
+    <h1 class="me-3">¿QUIENES SOMOS?</h1>
+    <div class="flex-grow-1 border-top border-black"></div>
   </div>
-</div>
-
-<!--footer-->
-<app-footer></app-footer>
+  <div class="container mt-4 mb-5">
+    <p>
+      Somos un equipo de expertos en tecnología dedicados a brindar soluciones a
+      medida que impulsan el rendimiento y la eficiencia de los sistemas
+      informáticos. Con años de experiencia en consultoría y soporte técnico,
+      nuestra misión es ayudar a nuestros clientes a optimizar sus
+      infraestructuras tecnológicas y resolver sus desafíos digitales. Nos
+      especializamos en la evaluación de necesidades, la identificación de
+      problemas y la implementación de mejoras tecnológicas efectivas.
+    </p>
+    <p>
+      Nuestro enfoque se centra en ofrecer un servicio integral, que incluye
+      desde la instalación y reparación de equipos hasta la actualización de
+      sistemas operativos y aplicaciones. Ya sea que necesites asistencia
+      técnica puntual o un análisis detallado para mejorar tus sistemas, estamos
+      comprometidos en ofrecer soluciones personalizadas que se adapten a tus
+      necesidades específicas.
+    </p>
+    <p>
+      Lo que nos diferencia es nuestra pasión por la tecnología y el compromiso
+      con la calidad. Trabajamos con dedicación para asegurarnos de que tu
+      tecnología esté siempre optimizada, segura y funcionando de la mejor
+      manera posible. Nuestro equipo está en constante formación para mantenerse
+      actualizado con las últimas tendencias y avances tecnológicos, lo que nos
+      permite ofrecer un servicio siempre innovador y confiable.
+    </p>
+  </div>
+  <div class="container d-flex align-items-center">
+    <h1 class="me-3">¿POR QUÉ DEBERÍAS TRABAJAR CON LB?</h1>
+    <div class="flex-grow-1 border-top border-black"></div>
+  </div>
+  <div class="container my-5">
+    <app-accordion />
+  </div>
+</app-main-container>

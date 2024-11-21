@@ -1,4 +1,3 @@
-
 h1{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -27,3 +26,10 @@ p, .accordion-body{
     font-weight: 400;
     font-size: 13px;
 }
+
+
+@media (max-width: 767px) {
+    .nuestra-diferencia {
+      margin-bottom: 1rem;
+    }
+  }
