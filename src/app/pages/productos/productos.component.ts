@@ -1,20 +1,17 @@
+import { CardsContainerComponent } from './cards-container';
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../components/navbar/navbar.component';
-
-import { FooterComponent } from '../../components/footer/footer.component';
-import * as productsData from '../../../assets/products.json'
-import { RouterLink } from '@angular/router';
+import { ImageContainerComponent } from './image-container';
+import { InfoContainerComponent } from './info-container';
+import { MainContainerComponent } from '../../components/layout';
+import { TitleContainerComponent } from '../../components/title-container';
 @Component({
   selector: 'app-productos',
   standalone: true,
-  imports: [NavbarComponent,RouterLink, FooterComponent],
+  imports: [CardsContainerComponent, ImageContainerComponent, InfoContainerComponent, MainContainerComponent, TitleContainerComponent],
   templateUrl: './productos.component.html',
   styleUrl: './productos.component.css'
 })
 export class ProductosComponent {
-  PRODUCTS: any = productsData;
-
-  constructor(){
-    console.log(this.PRODUCTS)
-  }
+  
+  title = 'Productos';
 }

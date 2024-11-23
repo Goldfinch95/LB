@@ -1,0 +1,15 @@
+<div class="card mb-4 border-0">
+  <img
+    width="370"
+    height="250"
+    [ngSrc]="productElement.imagen"
+    [alt]="productElement.title"
+    class="card-img-top"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ productElement.title }}</h5>
+    <p class="card-text">
+      {{ productElement.text }}
+    </p>
+  </div>
+</div>

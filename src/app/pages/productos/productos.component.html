@@ -1,49 +1,15 @@
-<!--navbar-->
-<app-navbar></app-navbar>
-<!--page-->
-<!--title-->
-<div class="container-fluid bg-warning d-flex justify-content-center">
-  <div
-    class="container text-white container-consultoria d-flex justify-content-between mt-2"
-  >
-    <h1>PRODUCTOS</h1>
-    <div class="d-flex small mt-2">
-      <a
-        class="nav-link active link me-2"
-        aria-current="page"
-        routerLink="/inicio"
-        >Inicio</a
-      >
-      <p class="mx-2 next">>></p>
-      <a class="nav-link link ms-2">Productos</a>
-    </div>
-  </div>
-</div>
-<!--image-->
-<div class="container mt-5 mb-4">
-  <img
-    src="../../../assets/img/productos/productos.webp"
-    alt="Productos"
-    class="img-fluid"
-  />
-</div>
-<!--info-->
-<div class="container">
-  <p>
-    Actualmente, una empresa no puede sobrevivir si no se alinea a la era
-    tecnológica en la que estamos viviendo. Hay elementos básicos que no pueden
-    faltar en una oficina, como son desktops, teléfonos, impresoras y sus
-    distintos suplementos. LB cuenta con una amplia gama de productos, que van
-    desde suministros de impresión hasta servidores, impresoras, plotters y
-    demás, siempre de las mejores marcas en el mercado.
-  </p>
-  <p>
-    Nosotros nos encargamos de que su producto sea el indicado según sus
-    necesidades y que llegue intacto a sus manos y le damos el asesoramiento
-    necesario, respecto al equipo o producto que haya solicitado.
-  </p>
-</div>
-<!--cards-->
+<app-main-container>
+<app-title-container [title]="title"/>
+<app-image-container />
+<app-info-container />
+<app-cards-container />
+</app-main-container>
+
+
+<!--
+info
+
+cards
 <div class="container my-4">
   <div class="row">
         @for (card of PRODUCTS.default; track $index) {
@@ -58,6 +24,4 @@
             </div>
         }
   </div>
-</div>
-<!--footer-->
-<app-footer></app-footer>
+</div>-->
