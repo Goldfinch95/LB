@@ -1,0 +1,44 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+
+  .no-style-link:hover {
+    text-decoration: none;
+  }
+}
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-title {
+  position: absolute;
+  left: 0;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-title {
+  transform: translateX(-100%);
+}
+
+.card:hover .card-img {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}

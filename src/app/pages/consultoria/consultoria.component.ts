@@ -1,17 +1,20 @@
+import { CardsContainerComponent } from './cards-container';
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../components/navbar/navbar.component';
-import { FooterComponent } from '../../components/footer/footer.component';
-import { RouterLink } from '@angular/router';
-import * as serviceData from '../../../assets/services.json'
-
+import { TitleContainerComponent } from '../../components/title-container';
+import { ImageContainerComponent } from './image-container';
+import { InfoContainerComponent } from './info-container';
 @Component({
   selector: 'app-consultoria',
   standalone: true,
-  imports: [NavbarComponent,RouterLink, FooterComponent],
+  imports: [
+    CardsContainerComponent,
+    ImageContainerComponent,
+    InfoContainerComponent,
+    TitleContainerComponent,
+  ],
   templateUrl: './consultoria.component.html',
-  styleUrl: './consultoria.component.css'
+  styleUrl: './consultoria.component.css',
 })
 export class ConsultoriaComponent {
-
-  SERVICES: any = serviceData;
+  title = 'Consultoría';
 }

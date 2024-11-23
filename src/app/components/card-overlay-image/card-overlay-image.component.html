@@ -1,0 +1,16 @@
+<div class="card text-bg-dark">
+  <a [routerLink]="serviceElement.link" class="no-style-link">
+    <img
+      height="250"
+      width="370"
+      [ngSrc]="serviceElement.imagen"
+      alt="servicios"
+      class="card-img"
+    />
+    <div class="card-img-overlay d-flex align-items-end">
+      <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
+        {{ serviceElement.title }}
+      </h5>
+    </div>
+  </a>
+</div>

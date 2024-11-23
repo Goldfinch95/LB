@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    @for (serviceElement of ServiceList.data; track serviceElement.title) {
+    <div class="col-md-4 mb-4">
+      <app-card-overlay-image [serviceElement]="serviceElement"/>
+    </div>
+    }
+  </div>
+</div>
+
+<!--<div class="container mt-4">
+    <div class="row">
+      @for (item of SERVICES.default; track $index) {
+      <div class="col-md-4 mb-4">
+        <div class="card text-bg-dark">
+          <a [routerLink]="item.link" class="no-style-link">
+            <img [src]="item.image" [alt]="item.title" class="card-img" />
+            <div class="card-img-overlay d-flex align-items-end">
+              <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
+                {{ item.title }}
+              </h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      }
+    </div>
+  </div>-->
