@@ -11,4 +11,10 @@ import { ServiceElement } from '../models';
 })
 export class CardsContainerComponent {
   ServiceList: ServiceElement = serviceData;
+
+  title: string = 'title';
+
+  constructor(){
+    console.log(this.ServiceList)
+  }
 }

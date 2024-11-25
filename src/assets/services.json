@@ -1,32 +1,38 @@
 { "data":[
     {
       "title": "SERVICIOS DE LOGÍSTICA Y DISTRIBUCIÓN",
+      "name": "servicios-de-logística-y-distribución",
       "imagen": "../assets/img/consultoria/logistica.webp",
-      "link": "/servicio_1"
+      "link": "/servicio"
     },
     {
       "title": "SERVICIOS DE CONECTIVIDAD Y ENLACES",
+      "name": "servicios-de-conectividad-y-enlace",
       "imagen": "../assets/img/consultoria/enlace.webp",
-      "link": "/servicio_2"
+      "link": "/servicio"
     },
     {
       "title": "SERVICIOS DE DIGITALIZACIÓN",
+      "name": "servicios-de-digitalización",
       "imagen": "../assets/img/consultoria/digitalizacion.webp",
-      "link": "/servicio_3"
+      "link": "/servicio"
     },
     {
       "title": "SERVICIOS DE SOPORTE TÉCNICO",
+      "name": "servicios-de-soporte-técnico",
       "imagen": "../assets/img/consultoria/servicios-soporte-tecnico.webp",
-      "link": "/servicio_4"
+      "link": "/servicio"
     },
     {
       "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
+      "name": "servicios-DAAS",
       "imagen": "../assets/img/consultoria/daas.webp",
-      "link": "/servicio_5"
+      "link": "/servicio"
     },
     {
       "title": "SOLUCIONES DE EQUIPAMIENTO DE IT",
+      "name": "servicios-de-equipamiento-de-IT",
       "imagen": "../assets/img/consultoria/soluciones_de_equipamiento_de_ti.webp",
-      "link": "/servicio_6"
+      "link": "/servicio"
     }
   ]}
