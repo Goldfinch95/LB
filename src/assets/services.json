@@ -3,36 +3,55 @@
       "title": "SERVICIOS DE LOGÍSTICA Y DISTRIBUCIÓN",
       "name": "servicios-de-logística-y-distribución",
       "imagen": "../assets/img/consultoria/logistica.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
     },
     {
       "title": "SERVICIOS DE CONECTIVIDAD Y ENLACES",
       "name": "servicios-de-conectividad-y-enlace",
       "imagen": "../assets/img/consultoria/enlace.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
+      
     },
     {
       "title": "SERVICIOS DE DIGITALIZACIÓN",
       "name": "servicios-de-digitalización",
       "imagen": "../assets/img/consultoria/digitalizacion.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
     },
     {
       "title": "SERVICIOS DE SOPORTE TÉCNICO",
       "name": "servicios-de-soporte-técnico",
       "imagen": "../assets/img/consultoria/servicios-soporte-tecnico.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
     },
     {
       "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
       "name": "servicios-DAAS",
       "imagen": "../assets/img/consultoria/daas.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
     },
     {
       "title": "SOLUCIONES DE EQUIPAMIENTO DE IT",
       "name": "servicios-de-equipamiento-de-IT",
       "imagen": "../assets/img/consultoria/soluciones_de_equipamiento_de_ti.webp",
-      "link": "/servicio"
+      "link": "/servicio",
+      "imagen_adicional_1": "../assets/img/consultoria/logistica_extra_1.webp",
+      "imagen_adicional_2": "../assets/img/consultoria/logistica_extra_2.webp",
+      "texto": "Aquí puedes poner más información relevante sobre los servicios de logística."
     }
   ]}

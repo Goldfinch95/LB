@@ -14,7 +14,9 @@ export class CardsContainerComponent {
 
   title: string = 'title';
 
-  constructor(){
-    console.log(this.ServiceList)
+  constructor() {
+    
+    console.log('Lista de servicios cargada:', this.ServiceList); // Debug
   }
+  
 }
