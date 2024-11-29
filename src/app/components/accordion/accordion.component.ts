@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './accordion.component.css'
 })
 export class AccordionComponent {
+  accordeonCollapsed = true;
 
+  toggleAccordeonCollapsing() {
+    this.accordeonCollapsed = !this.accordeonCollapsed;
+  }
 }
