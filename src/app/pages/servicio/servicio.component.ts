@@ -14,14 +14,13 @@ import { SharedDataService } from '../../services/shared-data.service';
 })
 export class ServicioComponent implements OnInit {
      title="servicio"
-     selectedCard: any;
+     selectedService: any;
 
      constructor(private sharedDataService: SharedDataService) {}
-
-     ngOnInit() {
-      this.sharedDataService.selectedCard$.subscribe((data) => {
-        console.log('Dato recibido por el receptor:', data); // Debug
-        this.selectedCard = data;
-      });
+   
+     ngOnInit(): void {
+       // Recuperar los datos del servicio
+       this.selectedService = this.sharedDataService.getSelectedCard();
+       console.log('Datos del servicio seleccionados:', this.selectedService); // Para verificar que los datos se han recibido correctamente
      }
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-info-container',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './info-container.component.css'
 })
 export class InfoContainerComponent {
-
+  @Input() paragraph: string[] = [];
+  @Input() info: any[] = [];
+  @Input() conclusion: string = '';
 }

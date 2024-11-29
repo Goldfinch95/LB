@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-images-container',
@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './images-container.component.css'
 })
 export class ImagesContainerComponent {
-
+  @Input() images: string = '';
   example: string = './assets/img/consultoria/logistica_1.png';
   example2: string = './assets/img/consultoria/logistica_2.png';
 }

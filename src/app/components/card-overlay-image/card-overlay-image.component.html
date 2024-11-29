@@ -1,15 +1,15 @@
 <div class="card text-bg-dark" >
-  <a [routerLink]="[serviceElement.link, serviceElement.name]" class="no-style-link" (click)="selectCard()">
+  <a [routerLink]="[serviceCard.link, serviceCard.name]" class="no-style-link" (click)="onCardClick()">
     <img
       height="250"
       width="370"
-      [ngSrc]="serviceElement.imagen"
+      [ngSrc]="serviceCard.imagen"
       alt="servicios"
       class="card-img"
     />
     <div class="card-img-overlay d-flex align-items-end">
       <h5 class="card-title bg-primary p-2 text-center w-100 m-0">
-        {{ serviceElement.title }}
+        {{ serviceCard.title }}
       </h5>
     </div>
   </a>

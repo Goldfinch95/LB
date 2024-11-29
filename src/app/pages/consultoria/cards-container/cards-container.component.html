@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
-    @for (serviceElement of ServiceList.data; track serviceElement.title) {
+    @for (serviceElement of ServiceList; track serviceElement.name ) {
     <div class="col-md-4 mb-4">
-      <app-card-overlay-image  [serviceElement]="serviceElement"/>
+      <app-card-overlay-image  [serviceCard]="serviceElement.card" [servicePage]="serviceElement.page" (cardSelected)="onCardSelect($event)"/>
     </div>
     }
   </div>

@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { Elemento } from '../../pages/consultoria/models';
+import { Component, Input, Output } from '@angular/core';
+
 import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SharedDataService } from '../../services/shared-data.service';
@@ -12,19 +12,19 @@ import { SharedDataService } from '../../services/shared-data.service';
   styleUrl: './card-overlay-image.component.css',
 })
 export class CardOverlayImageComponent {
-  @Input() serviceElement: Elemento = {
+  @Input() serviceCard: any = {
     title: '',
-    name: '',
     imagen: '',
     link: '',
-    imagen_adicional_1: '',
-    imagen_adicional_2: '',
-    texto: '',
   };
+
+  @Input() servicePage: any;
+
   constructor(private sharedDataService: SharedDataService) {}
 
-  selectCard() {
-    console.log('Dato enviado desde el hijo:', this.serviceElement.title); // Debug
-    this.sharedDataService.setSelectedCard(this.serviceElement.title); // Enviar el dato al servicio
+  // Método que se ejecuta cuando el usuario hace clic en la carta
+  onCardClick(): void {
+    // Almacenar los datos de la carta seleccionada en el servicio
+    this.sharedDataService.setSelectedCard(this.servicePage);
   }
 }
