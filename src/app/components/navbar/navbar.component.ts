@@ -8,27 +8,26 @@ import { NavLinkElementComponent } from "./nav-link-element/nav-link-element.com
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [ContainerLogoComponent, ContainerNavLinksComponent, NgClass, NavLinkElementComponent],
+  imports: [ContainerLogoComponent, ContainerNavLinksComponent, NgClass,],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit {
   navbarCollapsed = true;
-  isLargeScreen = false;  // Propiedad para detectar si la pantalla es grande
+  isLargeScreen = false;
 
-  // Método para alternar el colapso del navbar
   toggleNavbarCollapsing() {
     this.navbarCollapsed = !this.navbarCollapsed;
   }
 
-  // Constructor para inyectar el servicio
+  
   constructor(private windowSizeService: WindowSizeService) {}
 
-  // ngOnInit para observar el tamaño de la ventana
+  
   ngOnInit() {
-    // Suscripción a los cambios del tamaño de la ventana
+    
     this.windowSizeService.windowWidth$.subscribe((width) => {
-      this.isLargeScreen = width > 750; // Determina si la pantalla es más grande que 475px
+      this.isLargeScreen = width > 750; 
     });
   }
 }

@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { WindowSizeService } from '../../services/window-size.service';
 
 @Component({
   selector: 'app-title-container',
@@ -7,6 +8,17 @@ import { Component, Input } from '@angular/core';
   templateUrl: './title-container.component.html',
   styleUrl: './title-container.component.css'
 })
-export class TitleContainerComponent {
+export class TitleContainerComponent implements OnInit {
   @Input() title: string = '';
+  isLargeScreen = false;
+
+  constructor(private windowSizeService: WindowSizeService) {}
+
+  
+  ngOnInit() {
+    
+    this.windowSizeService.windowWidth$.subscribe((width) => {
+      this.isLargeScreen = width > 750; 
+    });
+  }
 }
