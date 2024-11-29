@@ -4,3 +4,7 @@
   background-color: #f5f5f5; /* Cambia el color según tu diseño */
   margin-top: 10px; /* Ajusta el espacio entre los enlaces y la línea */
 }
+
+.nav-link {
+  font-family: "Source Sans 3", sans-serif;
+}

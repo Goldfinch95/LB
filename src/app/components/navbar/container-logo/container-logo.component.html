@@ -1,9 +1,11 @@
-<div class="d-flex justify-content-center align-items-center mb-3">
+<div class="d-flex justify-content-center align-items-center mb-3 logo">
   <a
     href="#"
     class="d-flex flex-column justify-content-center align-items-center text-decoration-none"
   >
     <img width="80" height="80" src="./assets/img/logo/logo.webp" alt="logo" />
-    <p class="m-0 fw-semibold letter-spacing">Consultoría informática</p>
+    @if(isLargeScreen){
+      <p class="m-0 fw-semibold letter-spacing">Consultoría informática</p>
+    }
   </a>
 </div>

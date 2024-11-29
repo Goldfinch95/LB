@@ -10,6 +10,13 @@ import { NavLinkElementComponent } from '../nav-link-element';
   styleUrl: './container-nav-links.component.css',
 })
 export class ContainerNavLinksComponent {
+
+  navbarCollapsed = true;
+
+  // Método para alternar el colapso del navbar
+  toggleNavbarCollapsing() {
+    this.navbarCollapsed = !this.navbarCollapsed;
+  }
   NavLinkList: NavLinkElement[] = [
     {
       name: 'Inicio',
