@@ -1,20 +1,19 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../components/navbar/navbar.component';
 
-import { FooterComponent } from '../../components/footer/footer.component';
 import * as techServiceData from '../../../assets/tech_services.json'
-import { RouterLink } from '@angular/router';
+import { TitleContainerComponent } from '../../components/title-container';
+import { ImageContainerComponent } from './image-container';
+import { InfoContainerComponent } from './info-container';
+import { CardsContainerComponent } from './cards-container';
+
+
 @Component({
   selector: 'app-servicio-tecnico',
   standalone: true,
-  imports: [NavbarComponent, RouterLink, FooterComponent],
+  imports: [TitleContainerComponent, ImageContainerComponent, InfoContainerComponent,CardsContainerComponent ],
   templateUrl: './servicio-tecnico.component.html',
   styleUrl: './servicio-tecnico.component.css'
 })
 export class ServicioTecnicoComponent {
-  SERVICES: any = techServiceData;
-
-  constructor(){
-    console.log(this.SERVICES)
-  }
+  title = 'SERVICIO TÉCNICO'
 }

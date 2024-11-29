@@ -1,34 +1,243 @@
-[
-  {
-    "image": "../assets/img/servicio_tecnico/instalacion_camara_seguridad.webp",
-    "title": "INSTALACIÓN DE CÁMARAS DE SEGURIDAD",
-    "link": "/instalacion_camaras_seguridad"
+{
+  "data":[
+    {
+      "card":{
+        "name": "instalacion-de-camaras-de-seguridad",
+        "title": "INSTALACIÓN DE CÁMARAS DE SEGURIDAD",
+        "imagen": "./assets/img/servicio_tecnico/instalacion_camara_seguridad.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "INSTALACIÓN DE CÁMARAS DE SEGURIDAD",
+        "images": ["./assets/img/consultoria/logistica_1.webp", "./assets/img/consultoria/logistica_2.webp"],
+        "paragraph": [
+    "Ofrecemos un servicio profesional y eficiente de instalación de cámaras de seguridad, diseñado para garantizar la protección y monitoreo efectivo de tus espacios. Nos especializamos en proporcionar soluciones personalizadas para hogares, negocios y empresas de todos los tamaños, asegurando una instalación precisa y funcional.",
+    "Nuestro equipo altamente capacitado se encarga de cada detalle del proceso, desde la planificación y selección de equipos adecuados hasta la configuración y puesta en marcha del sistema. Utilizamos tecnología avanzada para ofrecer imágenes de alta calidad y acceso remoto en tiempo real, brindando tranquilidad y control en todo momento."
+  ],
+  "info": [
+    {
+      "titulo": "Asesoría personalizada",
+      "descripcion": "ayudamos a seleccionar el sistema de cámaras que mejor se adapte a tus necesidades."
+    },
+    {
+      "titulo": "Instalación profesional",
+      "descripcion": "aseguramos un montaje y configuración óptimos para un rendimiento confiable."
+    },
+    {
+      "titulo": "Integración con sistemas existentes",
+      "descripcion": "conectamos las cámaras a redes o dispositivos ya instalados."
+    },
+    {
+      "titulo": "Capacitación en el uso del sistema",
+      "descripcion": "garantizamos que conozcas todas las funciones y características de tu equipo."
+    },
+    {
+      "titulo": "Mantenimiento preventivo y correctivo",
+      "descripcion": "para asegurar el funcionamiento continuo de tus cámaras."
+    }
+  ],
+  "conclusion": "Confía en nosotros para proteger lo que más importa, con soluciones de seguridad que ofrecen tranquilidad y confianza."
+      }  
+    },
+    {
+      "card":{
+        "name": "reparacion-de-tv",
+        "title": "REPARACIÓN DE TV",
+        "imagen": "./assets/img/servicio_tecnico/reparacion_tv.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "REPARACIÓN DE TV",
+        "images": ["./assets/img/consultoria/enlace_1.webp", "./assets/img/consultoria/enlace_2.webp"],
+        "paragraph": [
+    "Ofrecemos un servicio profesional y eficiente de reparación de televisores, diseñado para garantizar que tu equipo funcione al máximo rendimiento. Nos especializamos en brindar soluciones personalizadas para todo tipo de televisores, asegurando una reparación rápida, efectiva y con garantía.",
+    "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de reparación, desde el diagnóstico inicial hasta la reparación y prueba del equipo. Utilizamos herramientas avanzadas y repuestos de alta calidad para asegurar una reparación durable y confiable."
+  ],
+  "info": [
+    {
+      "titulo": "Diagnóstico preciso",
+      "descripcion": "detección rápida y efectiva de fallas para una solución inmediata."
+    },
+    {
+      "titulo": "Reparación de pantallas y componentes",
+      "descripcion": "reparación de pantallas rotas, fallas en la retroiluminación y otros componentes."
+    },
+    {
+      "titulo": "Reemplazo de piezas",
+      "descripcion": "cambio de circuitos, conectores y otros componentes electrónicos."
+    },
+    {
+      "titulo": "Optimización del rendimiento",
+      "descripcion": "ajustes para mejorar la calidad de imagen, sonido y eficiencia energética."
+    },
+    {
+      "titulo": "Servicio a domicilio o en taller",
+      "descripcion": "reparación en taller o directamente en tu hogar, según prefieras."
+    }
+  ],
+  "conclusion": "Confía en nosotros para mantener tu televisor funcionando como nuevo, con un servicio de reparación que te brinda calidad, rapidez y satisfacción garantizada."
+      }
   },
   {
-    "image": "../assets/img/servicio_tecnico/reparacion_tv.webp",
-    "title": "REPARACIÓN DE TV",
-    "link": "/reparacion_tv"
+      
+      "card":{
+        "name": "almacenamiento-y-backup",
+        "title": "ALMACENAMIENTO Y BACKUP",
+        "imagen": "./assets/img/servicio_tecnico/almacenamiento_y_backup.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "ALMACENAMIENTO Y BACKUP",
+        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "paragraph": [
+          "Ofrecemos un servicio profesional y eficiente de almacenamiento y backup, diseñado para asegurar que tus datos estén siempre protegidos y accesibles. Nos especializamos en brindar soluciones personalizadas que se adaptan a las necesidades de empresas de todos los tamaños, garantizando la seguridad, disponibilidad y recuperación de tu información en todo momento.",
+          "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de almacenamiento y backup, desde la planificación e implementación hasta el monitoreo y la recuperación de datos. Utilizamos tecnologías avanzadas que aseguran la integridad y seguridad de la información, con herramientas que permiten una recuperación rápida y eficaz en caso de incidentes."
+        ],
+        "info": [
+          {
+            "titulo": "Almacenamiento en la nube",
+            "descripcion": "soluciones seguras y escalables que permiten el acceso a tus datos desde cualquier lugar."
+          },
+          {
+            "titulo": "Copia de seguridad automatizada",
+            "descripcion": "backups periódicos para evitar la pérdida de datos y garantizar su disponibilidad."
+          },
+          {
+            "titulo": "Recuperación ante desastres",
+            "descripcion": "recuperación de datos rápida y efectiva para minimizar el tiempo de inactividad en tu empresa."
+          },
+          {
+            "titulo": "Monitoreo y gestión de datos",
+            "descripcion": "tecnología avanzada para garantizar la seguridad y accesibilidad constante de tus archivos."
+          },
+          {
+            "titulo": "Asesoría y soporte especializado",
+            "descripcion": "asistencia proactiva para optimizar tu estrategia de almacenamiento y backup según las necesidades específicas de tu empresa."
+          }
+        ],
+        "conclusion": "Confía en nosotros para proteger y gestionar tus datos, garantizando la continuidad de tu operación con soluciones de almacenamiento y backup que impulsan la seguridad y la eficiencia en tu empresa."
+      }
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_almacenamiento_y_backup.webp",
-    "title": "ALMACENAMIENTO Y BACKUP",
-    "link": "/almacenamiento_backup"
+      "card":{
+        "name": "networking-y-cableado-estructurado",
+        "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
+        "imagen": "./assets/img/servicio_tecnico/networking_y_cableado_estructurado.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
+        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "paragraph": [
+    "Ofrecemos un servicio profesional y eficiente de networking y cableado estructurado, diseñado para garantizar una infraestructura de red robusta y optimizada para el rendimiento de tus operaciones. Nos especializamos en soluciones personalizadas para empresas de todos los tamaños, asegurando la conexión fluida y segura de todos tus dispositivos y sistemas.",
+    "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de networking y cableado, desde el diseño y planificación de redes hasta la instalación y mantenimiento. Utilizamos tecnologías avanzadas para asegurar una red fiable y escalable, adaptada a las necesidades específicas de tu empresa."
+  ],
+  "info": [
+    {
+      "titulo": "Diseño e implementación de redes",
+      "descripcion": "soluciones de cableado estructurado adaptadas a la arquitectura de tu empresa, para maximizar el rendimiento y la fiabilidad de la red."
+    },
+    {
+      "titulo": "Enlaces dedicados de alta velocidad",
+      "descripcion": "para garantizar conexiones estables y seguras entre diferentes puntos de tu empresa."
+    },
+    {
+      "titulo": "Monitoreo y gestión de redes",
+      "descripcion": "con herramientas avanzadas que permiten supervisar y optimizar el rendimiento de la red 24/7."
+    },
+    {
+      "titulo": "Soporte técnico especializado",
+      "descripcion": "asistencia proactiva para solucionar problemas de conectividad antes de que impacten en tus operaciones."
+    },
+    {
+      "titulo": "Soluciones VPN",
+      "descripcion": "para proteger la comunicación remota y asegurar la privacidad de los datos."
+    }
+  ],
+  "conclusion": "Confía en nosotros para construir y mantener la infraestructura de red que tu empresa necesita para operar con eficacia y seguridad, impulsando la productividad y garantizando la continuidad operativa."
+      }
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_networking_y_cableado_estructurado.webp",
-    "title": "NETWORKING Y CABLEADO ESTRUCTURADO",
-    "link": "/networking_cableado_estructurado"
+      
+      "card":{
+        "name": "virtualizacion-de-servidores",
+        "title": "VIRTUALIZACIÓN DE SERVIDORES",
+        "imagen": "./assets/img/servicio_tecnico/virtualizacion-de-servidores.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "VIRTUALIZACIÓN DE SERVIDORES",
+        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "paragraph": [
+    "Ofrecemos un servicio profesional y eficiente de virtualización de servidores, diseñado para optimizar los recursos tecnológicos de tu empresa. Nos especializamos en soluciones personalizadas para empresas de todos los tamaños, garantizando una infraestructura flexible, escalable y rentable que maximiza el rendimiento de tus sistemas.",
+    "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de virtualización, desde la planificación estratégica hasta la implementación y el soporte continuo. Utilizamos las mejores herramientas y tecnologías para asegurar que tu infraestructura IT sea más eficiente y fácil de gestionar."
+  ],
+  "info": [
+    {
+      "titulo": "Diseño e implementación de virtualización de servidores",
+      "descripcion": "soluciones personalizadas adaptadas a las necesidades de tu empresa para mejorar la eficiencia y la flexibilidad."
+    },
+    {
+      "titulo": "Consolidación de recursos",
+      "descripcion": "optimización del uso de tus servidores para reducir costos de hardware y aumentar la disponibilidad de los recursos."
+    },
+    {
+      "titulo": "Monitoreo y gestión de servidores virtualizados",
+      "descripcion": "con herramientas avanzadas que aseguran un rendimiento óptimo y la alta disponibilidad de tus aplicaciones y datos."
+    },
+    {
+      "titulo": "Soporte técnico especializado",
+      "descripcion": "asistencia proactiva para resolver problemas antes de que afecten a tus operaciones, asegurando un servicio continuo y sin interrupciones."
+    },
+    {
+      "titulo": "Seguridad y protección de datos",
+      "descripcion": "medidas de seguridad integradas para garantizar que tus servidores virtualizados estén protegidos contra accesos no autorizados y amenazas."
+    }
+  ],
+  "conclusion": "Confía en nosotros para ofrecerte soluciones de virtualización que optimicen el uso de tus recursos tecnológicos, impulsando la productividad y asegurando la continuidad operativa de tu empresa."
+      }
   },
   {
-    "image": "../assets/img/servicio_tecnico/soluciones-virtualizacion-de-servidores.webp",
-    "title": "VIRTUALIZACIÓN DE SERVIDORES",
-    "link": "/virtualizacion_servicios"
-  },
-  {
-    "image": "../assets/img/servicio_tecnico/soluciones_de_licencias_de_software.webp",
-    "title": "LICENCIAMIENTO DE SOFTWARE",
-    "link": "/licenciamiento_software"
-  }
-]
+      
+      "card":{
+        "name": "licenciamiento-de-software",
+        "title": "LICENCIAMIENTO DE SOFTWARE",
+        "imagen": "./assets/img/servicio_tecnico/licencias_de_software.webp",
+        "link": "/servicio"
+      },
+      "page":{
+        "title": "LICENCIAMIENTO DE SOFTWARE",
+        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "paragraph": [
+    "Ofrecemos un servicio profesional y eficiente de licenciamiento de software, diseñado para garantizar el cumplimiento normativo y optimizar las herramientas tecnológicas de tu empresa. Nos especializamos en ofrecer soluciones personalizadas para empresas de todos los tamaños, asegurando que adquieras las licencias adecuadas para maximizar el rendimiento y la seguridad de tus sistemas.",
+    "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de licenciamiento, desde la planificación estratégica hasta la implementación y el seguimiento. Utilizamos herramientas avanzadas para asegurar que el licenciamiento sea fácil de gestionar, transparente y cumpla con todas las normativas vigentes."
+  ],
+  "info": [
+    {
+      "titulo": "Asesoría en licenciamiento de software",
+      "descripcion": "soluciones adaptadas a las necesidades de tu empresa para asegurar la adquisición de licencias válidas y compatibles con tu infraestructura."
+    },
+    {
+      "titulo": "Gestión de licencias y renovaciones",
+      "descripcion": "para mantener tus programas y sistemas actualizados, evitando interrupciones en tus operaciones."
+    },
+    {
+      "titulo": "Monitoreo y cumplimiento",
+      "descripcion": "con herramientas que aseguran que todas las licencias estén al día y en conformidad con las leyes locales e internacionales."
+    },
+    {
+      "titulo": "Soporte técnico especializado",
+      "descripcion": "asistencia para resolver problemas relacionados con la instalación, configuración o uso de las licencias, garantizando un funcionamiento continuo y eficiente."
+    },
+    {
+      "titulo": "Consultoría sobre licencias en la nube",
+      "descripcion": "para empresas que requieren soluciones flexibles y escalables adaptadas a entornos virtualizados."
+    }
+  ],
+  "conclusion": "Confía en nosotros para ofrecerte un servicio integral de licenciamiento que garantice el cumplimiento legal, optimice el uso de tus herramientas tecnológicas y maximice la productividad de tu empresa."
+      }
+    }
+  ]
+}
 
   
