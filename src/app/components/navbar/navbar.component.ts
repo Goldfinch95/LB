@@ -27,7 +27,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     
     this.windowSizeService.windowWidth$.subscribe((width) => {
-      this.isLargeScreen = width > 750; 
+      this.isLargeScreen = width > 991; 
     });
   }
 }

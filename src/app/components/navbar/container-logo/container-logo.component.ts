@@ -17,7 +17,7 @@ export class ContainerLogoComponent implements OnInit {
   ngOnInit() {
     // Suscripción a los cambios del tamaño de la ventana
     this.windowSizeService.windowWidth$.subscribe((width) => {
-      this.isLargeScreen = width > 750; // Determina si la pantalla es más grande que 475px
+      this.isLargeScreen = width > 991; // Determina si la pantalla es más grande que 475px
     });
   } // Propiedad para detectar si la pantalla es grande
 }
