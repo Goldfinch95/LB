@@ -2,7 +2,7 @@
   "data":[
     {
       "card":{
-        "name": "servicios-de-logística-y-distribución",
+        "name": "servicios-de-logistica-y-distribucion",
         "title": "SERVICIOS DE LOGÍSTICA Y DISTRIBUCIÓN",
         "imagen": "./assets/img/consultoria/logistica.webp",
         "link": "/servicio"
@@ -81,14 +81,14 @@
   {
       
       "card":{
-        "name": "servicios-de-digitalización",
+        "name": "servicios-de-digitalizacion",
         "title": "SERVICIOS DE DIGITALIZACIÓN",
         "imagen": "./assets/img/consultoria/digitalizacion.webp",
         "link": "/servicio"
       },
       "page":{
         "title": "SERVICIOS DE DIGITALIZACIÓN",
-        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "images": ["./assets/img/consultoria/digitalizacion_1.webp", "./assets/img/consultoria/digitalizacion_2.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de digitalización, diseñado para optimizar la gestión y el acceso a la información en tu empresa. Nos especializamos en brindar soluciones personalizadas para empresas de todos los tamaños, transformando documentos físicos en archivos digitales organizados, seguros y fácilmente accesibles.",
     "Nuestro equipo altamente capacitado se encarga de gestionar cada etapa del proceso de digitalización, desde la conversión inicial hasta la implementación de sistemas de gestión documental. Utilizamos tecnologías avanzadas que garantizan precisión, velocidad y confidencialidad, ayudando a tu empresa a reducir costos operativos y mejorar la productividad."
@@ -120,14 +120,14 @@
   },
   {
       "card":{
-        "name": "servicios-de-soporte-técnico",
+        "name": "servicios-de-soporte-tecnico",
         "title": "SERVICIOS DE SOPORTE TÉCNICO",
-        "imagen": "../assets/img/consultoria/servicios-soporte-tecnico.webp",
+        "imagen": "./assets/img/consultoria/servicios-soporte-tecnico.webp",
         "link": "/servicio"
       },
       "page":{
         "title": "SERVICIOS DE SOPORTE TÉCNICO",
-        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "images": ["./assets/img/consultoria/soporte_tecnico_2.webp", "./assets/img/consultoria/soporte_tecnico_1.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de soporte técnico, diseñado para garantizar el funcionamiento óptimo de los sistemas y herramientas tecnológicas en tu empresa. Nos especializamos en brindar soluciones personalizadas para empresas de todos los tamaños, resolviendo problemas técnicos de manera ágil y minimizando interrupciones operativas.",
     "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del soporte técnico, desde la identificación de problemas hasta la implementación de soluciones y el mantenimiento preventivo. Utilizamos tecnologías avanzadas y procesos estandarizados para asegurar la máxima calidad y rapidez en cada intervención."
@@ -162,12 +162,12 @@
       "card":{
         "name": "servicios-DAAS",
         "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
-        "imagen": "../assets/img/consultoria/daas.webp",
+        "imagen": "./assets/img/consultoria/daas.webp",
         "link": "/servicio"
       },
       "page":{
         "title": "SERVICIOS DAAS - DEVICE AS A SERVICE",
-        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "images": ["./assets/img/consultoria/service_daas_1.webp", "../assets/img/consultoria/service_daas_2.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de Device as a Service (DaaS), diseñado para optimizar la gestión de los dispositivos tecnológicos en tu empresa. Nos especializamos en brindar soluciones personalizadas que se adaptan a las necesidades de empresas de todos los tamaños, garantizando flexibilidad, eficiencia y ahorro en costos operativos.",
     "Nuestro equipo altamente capacitado se encarga de gestionar todo el ciclo de vida de los dispositivos, desde la adquisición y configuración inicial hasta el mantenimiento, la actualización y la disposición final. Implementamos herramientas avanzadas de monitoreo y administración para maximizar la productividad y garantizar un funcionamiento impecable."
@@ -207,7 +207,7 @@
       },
       "page":{
         "title": "SOLUCIONES DE EQUIPAMIENTO DE IT",
-        "images": ["./assets/img/consultoria/logistica_1.png", "../assets/img/consultoria/logistica_extra_2.webp"],
+        "images": ["./assets/img/consultoria/equipamento_it.webp", "./assets/img/consultoria/equipamento_it_2.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de equipamiento de IT, diseñado para proporcionar a tu empresa las herramientas tecnológicas necesarias para operar de manera óptima. Nos especializamos en ofrecer soluciones personalizadas que se ajustan a los requerimientos específicos de empresas de todos los tamaños, asegurando el acceso a equipos modernos y confiables.",
     "Nuestro equipo altamente capacitado se encarga de gestionar cada etapa del proceso, desde la asesoría inicial para la selección del equipamiento adecuado hasta la instalación y configuración. Utilizamos tecnología de vanguardia para garantizar que tu infraestructura tecnológica esté siempre a la altura de los desafíos del mercado."

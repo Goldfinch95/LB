@@ -9,7 +9,7 @@
       },
       "page":{
         "title": "INSTALACIÓN DE CÁMARAS DE SEGURIDAD",
-        "images": ["./assets/img/consultoria/logistica_1.webp", "./assets/img/consultoria/logistica_2.webp"],
+        "images": ["./assets/img/servicio_tecnico/camara_seguridad_1.webp", "./assets/img/servicio_tecnico/camara_seguridad_2.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de instalación de cámaras de seguridad, diseñado para garantizar la protección y monitoreo efectivo de tus espacios. Nos especializamos en proporcionar soluciones personalizadas para hogares, negocios y empresas de todos los tamaños, asegurando una instalación precisa y funcional.",
     "Nuestro equipo altamente capacitado se encarga de cada detalle del proceso, desde la planificación y selección de equipos adecuados hasta la configuración y puesta en marcha del sistema. Utilizamos tecnología avanzada para ofrecer imágenes de alta calidad y acceso remoto en tiempo real, brindando tranquilidad y control en todo momento."
@@ -48,7 +48,7 @@
       },
       "page":{
         "title": "REPARACIÓN DE TV",
-        "images": ["./assets/img/consultoria/enlace_1.webp", "./assets/img/consultoria/enlace_2.webp"],
+        "images": ["./assets/img/servicio_tecnico/reparacion_tv_1.webp", "./assets/img/servicio_tecnico/reparacion_tv_1.webp"],
         "paragraph": [
     "Ofrecemos un servicio profesional y eficiente de reparación de televisores, diseñado para garantizar que tu equipo funcione al máximo rendimiento. Nos especializamos en brindar soluciones personalizadas para todo tipo de televisores, asegurando una reparación rápida, efectiva y con garantía.",
     "Nuestro equipo altamente capacitado se encarga de gestionar cada aspecto del proceso de reparación, desde el diagnóstico inicial hasta la reparación y prueba del equipo. Utilizamos herramientas avanzadas y repuestos de alta calidad para asegurar una reparación durable y confiable."
