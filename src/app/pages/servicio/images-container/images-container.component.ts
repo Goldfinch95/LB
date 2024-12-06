@@ -10,6 +10,4 @@ import { Component, Input } from '@angular/core';
 })
 export class ImagesContainerComponent {
   @Input() images: string = '';
-  example: string = './assets/img/consultoria/logistica_1.png';
-  example2: string = './assets/img/consultoria/logistica_2.png';
 }
