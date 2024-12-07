@@ -8,3 +8,9 @@
   -ms-border-radius: 1%;
   -o-border-radius: 1%;
 }
+
+@media (min-width: 1000px) {
+  .container-style{
+      padding: 2%;
+  }
+}
