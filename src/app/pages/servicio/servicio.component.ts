@@ -34,14 +34,14 @@ export class ServicioComponent implements OnInit {
       const foundTechService = serviceTechData.data.find((service:any) => service.card.name === urlLastPart);
       if(foundService){
         this.selectedService = foundService.page;
-        console.log('Found Service:', this.selectedService);
+        
       }
       else if(foundTechService){
         this.selectedService = foundTechService.page;
-        console.log('Found Service:', this.selectedService);
+        
       }
       else{
-        console.log('Service not found');
+        
         this.selectedService = null;
       }
 

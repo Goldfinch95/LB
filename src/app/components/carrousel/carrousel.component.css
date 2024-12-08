@@ -7,6 +7,11 @@
     background: #000;
     color: white;
     position: relative;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    -webkit-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    -ms-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 .overlay-image{
