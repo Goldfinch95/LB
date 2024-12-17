@@ -6,9 +6,9 @@
   }
   
 .nav-link:hover {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #880906;
   }
   
 .nav-link:active {
-    color: orange;
+    color: #880906;
   }
