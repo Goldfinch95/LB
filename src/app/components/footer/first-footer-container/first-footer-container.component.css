@@ -9,17 +9,85 @@ span {
   font-weight: 800;
 }
 
-p {
+ p{
   font-family: "PT Sans", sans-serif;
   color: #9c9c9c;
   font-size: 12px;
   font-weight: 100;
 }
 
-a {
-  color: #3fc7f1;
+.icon-list{
+  display: flex;
 }
 
-a:hover {
-  color: orange;
+.icon-list a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.icon-list a:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.icon-list a fa-icon{
+  font-size: 25px;
+  transition: none !important;
+}
+
+.icon-list a::before{
+  content: '';
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  background-color: #282a2b;
+  z-index: -1;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s;
+  -moz-transition: transform 0.3s;
+  -ms-transition: transform 0.3s;
+  -o-transition: transform 0.3s;
+}
+
+
+
+.icon-list a:hover fa-icon{
+  transform: none !important; 
+  font-size: 25px; 
+}
+
+.icon-list a:nth-child(1):hover {
+  background-color: #007BFF; 
+  color: #fff; 
+}
+
+.icon-list a:nth-child(2):hover {
+  background-color: #28A745; 
+  color: #fff; 
+}
+
+.icon-list a:hover::before{
+  transform: rotate(45deg) translate(15%, -100%);
+  -webkit-transform: rotate(45deg) translate(15%, -100%);
+  -moz-transform: rotate(45deg) translate(15%, -100%);
+  -ms-transform: rotate(45deg) translate(15%, -100%);
+  -o-transform: rotate(45deg) translate(15%, -100%);
 }
